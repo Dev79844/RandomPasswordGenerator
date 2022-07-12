@@ -2,7 +2,6 @@
   "name": "nameit",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dev79844.github.io/rpg",
   "dependencies": {
     "@rstacruz/startup-name-generator": "^0.3.0",
     "@testing-library/jest-dom": "^5.16.4",
@@ -14,8 +13,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,7 +38,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
-    "gh-pages": "^4.0.0",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.1.5"
   }
